@@ -1,4 +1,4 @@
-# Chumbow Lab | Property Operations
+# Property Operations | Maintenance Coordination Prototype
 
 A lightweight property-maintenance coordination prototype for landlords and property managers in Kenya.
 
@@ -57,8 +57,8 @@ The roadmap includes a secure backend, authentication and roles, shared records,
 
 ## Want to discuss a practical digital system?
 
-**[Contact Chumbow Lab about a project or workflow challenge](mailto:paulchumbow254@gmail.com?subject=Chumbow%20Lab%20project%20enquiry).**
+**[Contact Paul Chumbow about a project or workflow challenge](mailto:paulchumbow254@gmail.com?subject=Chumbow%20Lab%20project%20enquiry).**
 
 ---
 
-Built by Chumbow Lab — *Turning Ideas Into Systems That Work.*
+Built by **Paul Chumbow** · Chumbow Lab — *Turning Ideas Into Systems That Work.*
