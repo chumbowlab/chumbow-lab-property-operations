@@ -27,9 +27,25 @@ HTML5, CSS3 and vanilla JavaScript. The prototype uses browser localStorage for 
 ## How can you try it?
 
 1. Clone or download this repository.
-2. Open index.html in a modern browser.
+2. Open `index.html` in a modern browser.
 3. Explore the sample records and test the workflow.
 4. Add non-sensitive test records to understand how browser storage behaves.
+
+There is no hosted public demo linked at present. The repository itself contains the runnable prototype.
+
+## Workflow and design decisions
+
+The prototype separates the **stage of a job** from its **urgency**. A request can move through Reported, Assigned, In progress, Awaiting approval and Completed, while urgency helps the manager decide what needs attention first. Cancelled jobs can also be recorded.
+
+A few choices shape the workflow:
+
+- **Completion has a hand-off.** Completion notes are required before a job can be marked complete; the completion date and manager-acceptance state can be recorded separately.
+- **Costs remain comparable.** Estimated and actual costs are stored as separate fields rather than overwriting the original estimate.
+- **Technician status is explicit.** Availability and verification are separate manual declarations. A verification flag is not an independent background check.
+- **Changes have context.** Job activity history records important updates so a manager can review how a request progressed.
+- **Urgent hazards are surfaced.** The interface displays a safety reminder for urgent open work. It is an administrative prompt, not a risk assessment or emergency-response service.
+
+A reusable companion resource is available in [`resources/MAINTENANCE-WORKFLOW-TEMPLATE.md`](./resources/MAINTENANCE-WORKFLOW-TEMPLATE.md). It provides a request-record template, suggested hand-off checks and privacy reminders that can be adapted independently of the prototype.
 
 ## What should you know before using it?
 
