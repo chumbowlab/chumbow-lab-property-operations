@@ -1,56 +1,48 @@
-# Chumbow Lab — Property Operations
+# Chumbow Lab | Property Operations
 
-A responsive, single-file HTML prototype for coordinating property maintenance requests for landlords and property managers in Kenya.
+A lightweight property-maintenance coordination prototype for landlords and property managers in Kenya.
 
-## Problem
+**Status:** Prototype · **Stack:** HTML, CSS, vanilla JavaScript
 
-Maintenance requests can become difficult to track when job details, technician assignments, urgency, costs, and completion updates are scattered across messages and spreadsheets. This prototype explores a clearer workflow for recording requests and following work through to completion.
+## What problem does it address?
 
-## Features
+Property maintenance requests are often spread across messages, calls and spreadsheets. This prototype brings request details, urgency, assignments, progress and costs into one browser-based workspace.
 
-- Dashboard metrics for total, open, urgent, and completed jobs
-- Create, edit, search, filter, sort, and delete maintenance jobs
-- Track urgency, status, due dates, technician assignments, and job notes
-- Technician directory with trade, availability, and verification flags
-- Warning when a technician's listed trade does not match a job
-- Completion notes, completion date, manager acceptance, and activity history
-- Separate estimated and actual cost reporting
-- JSON backup and CSV job export
-- Responsive dark interface with green Chumbow Lab accents
-- Demo data to explore the prototype
+## How does it work?
 
-## Run locally
+The dashboard lets a user record and manage maintenance jobs, organise technician assignments and review work through a defined status flow.
 
-1. Download or clone this repository.
-2. Open `index.html` in a modern browser.
-3. The prototype uses browser `localStorage` to retain records in that browser.
+- Create, edit, search, filter, sort and remove maintenance jobs.
+- Track urgency, due dates, trades, assignments and job notes.
+- Maintain a technician directory with trade and availability details.
+- Record completion notes, dates, manager acceptance and activity history.
+- Compare estimated and actual costs.
+- Export job records as CSV and create a JSON backup.
+- Explore the interface with sample data.
 
-No build step or package installation is required.
+## What is it built with?
 
-## Technology
+HTML5, CSS3 and vanilla JavaScript. The prototype uses browser localStorage for persistence and browser-generated files for exports. It requires no package installation or build process.
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Browser `localStorage` and Blob-based file export
+## How can you try it?
 
-## Important limitations
+1. Clone or download this repository.
+2. Open index.html in a modern browser.
+3. Explore the sample records and test the workflow.
+4. Add non-sensitive test records to understand how browser storage behaves.
 
-This is an early prototype, not a production-ready service. Records are stored locally in one browser and are not shared across users or devices. Browser storage is not a secure database. Do not enter sensitive tenant, property-access, or payment information. Technician verification flags are manual declarations and do not constitute independent verification. Safety-critical hazards require appropriate professional or emergency response; the app does not provide emergency services.
+## What should you know before using it?
 
-## Future improvements
+This is an early, single-browser prototype—not a production property-management service. Records are stored locally and are not synchronised across users or devices. It has no server-side database, user authentication, role-based access, independent technician verification or managed backup service. Do not enter tenant personal data, access codes, payment details or other sensitive information. Technician verification flags are manual declarations. The application is not an emergency-response service.
 
-- Backend database, authentication, and role-based access
-- Shared records, audit logs, and reliable backups
-- Evidence attachments and approval workflow
-- Notifications and escalation rules
-- Stronger automated validation and browser interaction tests
-- Pilot testing with Kenyan landlords and property managers
+## What comes next?
 
-## Project status
+The roadmap includes a secure backend, authentication and roles, shared records, audit history, evidence attachments, approval workflows, notifications, automated tests and pilot feedback from property managers.
 
-Prototype / learning project. Features and workflows are subject to testing and iteration.
+## Want to discuss a practical digital system?
 
-## Author
+**[Contact Chumbow Lab about a project or workflow challenge](mailto:paulchumbow254@gmail.com?subject=Chumbow%20Lab%20project%20enquiry).**
 
-Chumbow Lab
+---
+
+Built by Chumbow Lab — *Turning Ideas Into Systems That Work.*
